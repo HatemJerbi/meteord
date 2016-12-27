@@ -1,4 +1,4 @@
-FROM redlean/meteord:base
+FROM hatemjerbi/meteord:base
 MAINTAINER Hatem jerbi Redlean Sarl.
 
 ONBUILD COPY ./ /app
