@@ -10,6 +10,6 @@ unxz $WKHTMLTOX_XZ_FILE
 
 tar -xvf $WKHTMLTOX_TAR_FILE
 
-cd wkhtmltox/bin
+cd wkhtmltox
 
-mv wkhtmltopdf  /usr/bin/wkhtmltopdf
+cp -r * /usr
